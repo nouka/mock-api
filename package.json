@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "api:serve": "npx json-server -q -w db.json",
+    "api:publish": "ngrok http 3000",
+    "start": "run-p api:*"
+  },
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
+
